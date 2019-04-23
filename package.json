@@ -1,0 +1,17 @@
+{
+  "name": "jquery-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.4.0",
+    "tsd": "^0.7.2",
+    "typings": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Aggarwal",
+  "license": "ISC"
+}

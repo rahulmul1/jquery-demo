@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <h1 class="text-center">Hello World</h1>
+    First Name : <input type="text" value="John" />
+    <br /><br />
+    Last Name : <input type="text" value="Major" />
+    <br /><br />
+    Gender :
+    <input type="radio" name="gender" checked="checked" value="Male">Male
+    <input type="radio" name="gender" value="Female">Female
+
+    <br /><br />
+    Graduate :
+    <input type="radio" name="graduate" checked="checked" value="graduate">
+
+    <br /><br />
+
+    Country:
+    <select>
+        <option selected="selected" value="USA">USA</option>
+        <option value="India">India</option>
+        <option value="UK">UK</option>
+    </select>
+    <br /><br />
+    Summary :
+    <br />
+    <textarea>
+            I am a Senior Dot Net Developer with 10 years experience
+        </textarea>
+    <br /><br />
+    <input type="submit" id="btnGetSelectedRadio" value="submit" />
+    <div id='divResult'></div>
+
+    Skills :
+    <input type="checkbox" name="skills" checked="checked" value="JavaScript" />JavaScript
+    <input type="checkbox" name="skills" checked="checked" value="jQuery" />jQuery
+    <input type="checkbox" name="skills" value="C#" />C#
+    <br /><br />
+    Preferred Cities :
+    <input type="checkbox" name="cities" value="New York" checked="checked" />New York
+    <input type="checkbox" name="cities" value="New Delhi" />New Delhi
+    <input type="checkbox" name="cities" value="London" />London
+    <br /><br />
+
+    <input id="btnGetSelectedSkills" type="submit" value="Get Selected Skills" />
+    <input id="btnGetSelectedCities" type="submit" value="Get Selected Cities" />
+    <br /><br />
+    <div id='divResult2'></div>
+
+    Country:
+    <select id="selectCountries">
+        <option value="USA">United States</option>
+        <option selected="selected" value="IND">India</option>
+        <option value="UK">United Kingdom</option>
+        <option value="CA">Canada</option>
+        <option value="AU">Australia</option>
+    </select>
+    <br /><br />
+    <div id="divResultselectCountries"></div>
+
+    Country:
+    <select id="selectCountries2" multiple="multiple">
+        <option value="USA">United States</option>
+        <option selected="selected" value="IND">India</option>
+        <option value="UK">United Kingdom</option>
+        <option selected="selected" value="CA">Canada</option>
+        <option value="AU">Australia</option>
+    </select>
+    <br /><br />
+    <div id="divResultselectCountries2"></div>
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/form-input-demo.js"></script>
+
+</body>
+
+</html>
